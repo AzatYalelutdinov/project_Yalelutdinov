@@ -3,3 +3,42 @@ main{
     font-weight: 500;
      
 }
+.records__card{
+    display: flex;
+    justify-content: left;
+   gap: 250px;
+   list-style: none;
+   text-decoration: none;
+   background-color: rgb(29, 170, 29);
+        color: white;
+        font-family: 'Railway', sans-serif;
+        font-weight: 400;
+        font-size: large;
+        font-style: italic;
+}
+.era-card{
+    display: flex;
+    justify-content: left;
+   gap: 30px;
+   list-style: none;
+   text-decoration: none;
+   background-color: rgb(29, 170, 29);
+        color: white;
+        font-family: 'Railway', sans-serif;
+        font-weight: 400;
+        font-size: large;
+        font-style: italic;
+}
+ .stage-development{
+    display: flex;
+    justify-content: left;
+   gap: 10px;
+   list-style: none;
+   text-decoration: none;
+   background-color: rgb(29, 170, 29);
+        color: white;
+        font-family: 'Railway', sans-serif;
+        font-weight: 400;
+        font-size: large;
+        font-style: italic;
+ }

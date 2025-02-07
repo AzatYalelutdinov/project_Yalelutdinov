@@ -1,8 +1,19 @@
 header{
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 30px;
     background-color: rgb(29, 170, 29);
     color: white;
     font-family: 'Railway', sans-serif;
     font-weight: 400;
     font-size: medium;
     font-style: italic;
+}
+.menu-list{
+    display: flex;
+     justify-content: left;
+    gap: 100px;
+    list-style: none;
+    text-decoration: none;
 }

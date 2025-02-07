@@ -1,4 +1,15 @@
 footer{
-    font-family: Railway, sans-serif;
-    font-weight: 500;
+        background-color: rgb(29, 170, 29);
+        color: white;
+        font-family: 'Railway', sans-serif;
+        font-weight: 400;
+        font-size: medium;
+        font-style: italic;
+    }
+.menu{
+    display: flex;
+     justify-content: left;
+    gap: 100px;
+    list-style: none;
+    text-decoration: none;
 }
