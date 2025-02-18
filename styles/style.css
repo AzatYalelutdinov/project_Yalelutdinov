@@ -10,3 +10,11 @@
 @import"footer.css";
  /* Подключение стилей относящихся к main */
 @import"main.css";
+/* Подключение стилей относящихся к popup */
+@import"popup.css";
+/* Адаптивный дизайн*/
+@import"adaptability.css";
+/* Таблица успеваемости*/
+@import"table.css";
+/* Медиа файл*/
+@import"media.css";

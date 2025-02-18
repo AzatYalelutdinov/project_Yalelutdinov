@@ -1,1 +1,17 @@
- 
+.button:hover, .focus{
+    color: green;
+    background-color: white;
+}
+.check__button:hover, .focus{
+    color: green;
+    background-color: white;
+}
+.stage-development__text{
+    color: green;
+}
+.social__icon{
+    color: green;
+}
+.era-card__date{
+    color: green;
+}

@@ -17,3 +17,11 @@ header{
     list-style: none;
     text-decoration: none;
 }
+.menu__link:focus, .hover{
+    color: rgb( 85, 26, 139);
+}
+.menu__item:hover, .focus{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+}

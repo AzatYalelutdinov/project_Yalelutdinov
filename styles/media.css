@@ -1,0 +1,5 @@
+@media only screen and (max-width: 1400px) {
+    /*тут обращение к классам*/
+   .wrapper{
+    max-width: 100%;
+   } }

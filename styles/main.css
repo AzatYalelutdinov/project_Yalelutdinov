@@ -3,6 +3,22 @@ main{
     font-weight: 500;
      
 }
+.about__image{
+    display: flex;
+    justify-content: left;
+}
+.about__logo{
+    display: flex;
+    justify-content: center;
+}
+.about__text{
+    display: flex;
+    justify-content: center;
+}
+.about__photo{
+    display: flex;
+    justify-content: right;
+}
 .records__card{
     display: flex;
     justify-content: left;
@@ -22,8 +38,8 @@ main{
    gap: 30px;
    list-style: none;
    text-decoration: none;
-   background-color: rgb(29, 170, 29);
-        color: white;
+   background-color: white;
+        color: rgb(4, 206, 4);
         font-family: 'Railway', sans-serif;
         font-weight: 400;
         font-size: large;
@@ -35,8 +51,8 @@ main{
    gap: 10px;
    list-style: none;
    text-decoration: none;
-   background-color: rgb(29, 170, 29);
-        color: white;
+   background-color: rgb(243, 243, 243);
+        color: rgb(4, 206, 4);
         font-family: 'Railway', sans-serif;
         font-weight: 400;
         font-size: large;

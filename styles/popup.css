@@ -1,0 +1,22 @@
+.popup{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.button {
+    background-color: green;
+    color: white;
+    font-family: 'Railway', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: italic;
+}
+.check__button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: green;
+    color: white;
+    font-family: 'Railway', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    font-style: italic;
+}

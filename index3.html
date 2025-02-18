@@ -3,18 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
     <title>Главная</title>
 </head>
 <body>
-    <header> 
-        <img src= C:\Users\USER\Desktop\projectAzat1\projectAzat\img\ef9f64da-9b10-4b4d-8c60-acf5d90ba071.jfif width="50" height="50">
-    <a href="Index2.html"target="_blank"> Регистрация</a>
-    <a href="index3.html"target="_blank"> Главная</a>
-    <a href="index4.html"target="_blank"> Уроки </a>
-    <a href="index5.html"target="_blank"> Тесты </a>
-    <a href="index6.html"target="_blank"> Домашняя работа </a>
-    <a href="index7.html"target="_blank"> Контакты </a>
+    <header class="header">
+        <img class="header__logo" src="./images/1logo.jfif" width="75" height="75" alt="логотип">
+        <nav class="header__menu">
+            <ul class="menu">
+                <li class="menu__item menu__item--active"><a class="menu__link" href="Index2.html" target="_blank">
+                        Регистрация</a></li>
+                <li class="menu__item"><a class="menu__link" href="index3.html" target="_blank"> Главная</a></li>
+                <li class="menu__item"><a class="menu__link" href="index4.html" target="_blank"> Уроки </a></li>
+                <li class="menu__item"><a class="menu__link" href="index5.html" target="_blank"> Тесты </a></li>
+                <li class="menu__item"> <a class="menu__link" href="index6.html" target="_blank"> Домашняя работа </a>
+                </li>
+                <li class="menu__item"><a class="menu__link" href="index7.html" target="_blank"> Контакты </a></li>
+            </ul>
+        </nav>
     </header>
-    
-</body>
+<main>
+<form id="marks">
+    <table class="table">
+        <caption><b>Классный журнал 7-а класса.</b></caption>
+        <tr>
+            <th rowspan="2">ФИО.</th>
+        </tr>
+        <tr>
+            <th>13.12.2024</th>
+            <th>14.12.2024</th>
+            <th>18.12.2024</th>
+            <th>23.12.2024</th>
+            <th>24.12.2024</th>
+            <th>28.12.2024</th>
+        </tr>
+        <tr>
+            <td>Алаев А.Г.</td>
+            <td><input type="text" id="13.12.2024"></td>
+            <td><input type="text" id="14.12.2024"></td>
+            <td><input type="text" id="18.12.2024"></td>
+            <td><input type="text" id="23.12.2024"></td>
+            <td><input type="text" id="24.12.2024"></td>
+            <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Бабушкина А.А.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td> 
+    </tr> 
+    <tr>
+        <td>Бабяк Б.С.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>    
+    </tr>
+    <tr>
+        <td>Волошин Г.В.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Гадюкина Н.А.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Дмитриева С.Р.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Жарков.Е.Е.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Зыкова В.М.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Карпатов И.В.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Пасынков М.О.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    <tr>
+        <td>Яковлева Я.Я.</td>
+        <td><input type="text" id="13.12.2024"></td>
+        <td><input type="text" id="14.12.2024"></td>
+        <td><input type="text" id="18.12.2024"></td>
+        <td><input type="text" id="23.12.2024"></td>
+        <td><input type="text" id="24.12.2024"></td>
+        <td><input type="text" id="28.12.2024"></td>
+    </tr>
+    </table>
+</form>
+    <button class="check__button" type="button" form="marks"> Проверить оценку. </button>
+</main>
+    <footer class="footer">
+        <nav class="footer__menu">
+            <ul class="menu">
+                <li class="menu__item"> <a class="menu__icon" href=""> Вконтакте</a></li>
+                <li class="menu__item"><a class="menu__icon" href=""> Телеграм </a> </li>
+                <li class="menu__item"><a class="menu__icon"
+                        href="alelutdinovazat@gmai.com">alelutdinovazat@gmai.com</a></li>
+                <li class="menu__item"><span><a class="menu__icon" href="tel:+79027456957">+79027456957</a> </span>
+                </li>
+                <li class="menu__item"> <a class="about-us" href="index7.html" target="_blank"> О нас.</a></li>
+            </ul>
+        </nav>
+    </footer>
+ 
+ </body>
 </html>
